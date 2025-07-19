@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fx Traid - منصة الفوركس</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+      background-color: #0f0f0f;
+      color: #00ffe7;
+      direction: rtl;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .hero {
+      padding: 100px 20px;
+      background-color: #000;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.5em;
+      color: #fff;
+    }
+
+    .hero .highlight {
+      color: #00ffe7;
+    }
+
+    .hero p {
+      color: #ccc;
+      font-size: 1.2em;
+      margin: 20px 0;
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    .btn-primary, .btn-secondary {
+      padding: 12px 30px;
+      border-radius: 25px;
+      font-size: 1em;
+      margin: 0 10px;
+      display: inline-block;
+      transition: 0.3s ease;
+    }
+
+    .btn-primary {
+      background-color: #00ffe7;
+      color: #000;
+    }
+
+    .btn-primary:hover {
+      background-color: #00c6b3;
+    }
+
+    .btn-secondary {
+      border: 1px solid #00ffe7;
+      color: #00ffe7;
+    }
+
+    .btn-secondary:hover {
+      background-color: #00ffe7;
+      color: #000;
+    }
+
+    .features {
+      padding: 60px 20px;
+      background-color: #1a1a1a;
+      text-align: center;
+    }
+
+    .features h2 {
+      font-size: 2em;
+      color: #00ffe7;
+      margin-bottom: 40px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .feature {
+      background-color: #111;
+      border-radius: 10px;
+      padding: 25px;
+      box-shadow: 0 0 10px rgba(0,255,231,0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .feature:hover {
+      transform: translateY(-5px);
+    }
+
+    .feature h3 {
+      color: #00ffe7;
+      margin-bottom: 10px;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      background: #000;
+      color: #00ffe7;
+      border-top: 1px solid #00ffe7;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>مرحباً بك في <span class="highlight">Fx Traid</span></h1>
+      <p>كل ما تحتاجه من أدوات، تعليم، توصيات، وحسابات ممولة في مكان واحد.</p>
+      <div class="buttons">
+        <a href="templates/user/register.php" class="btn-primary">ابدأ الآن</a>
+        <a href="https://wa.me/00201101400228" class="btn-secondary" target="_blank" rel="noopener">تواصل واتساب</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="features">
+    <div class="container">
+      <h2>خدماتنا</h2>
+      <div class="grid">
+        <div class="feature">
+          <h3>نسخ التداول</h3>
+          <p>اربط حسابك بنظام نسخ تلقائي وابدأ بالربح من المحترفين.</p>
+        </div>
+        <div class="feature">
+          <h3>مؤشرات وإكسبيرتات</h3>
+          <p>أدوات احترافية لتحليل السوق والدخول الذكي.</p>
+        </div>
+        <div class="feature">
+          <h3>كورسات تعليمية</h3>
+          <p>تعلم التداول خطوة بخطوة من خلال منهج احترافي شامل.</p>
+        </div>
+        <div class="feature">
+          <h3>حسابات ممولة</h3>
+          <p>فرص حقيقية للتداول برأس مال ممول بدون مخاطرة.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2025 Fx Traid - جميع الحقوق محفوظة</p>
+  </footer>
+
+</body>
+</html>
